@@ -8,6 +8,16 @@
 #ifndef input_handler_hpp
 #define input_handler_hpp
 
-#include <stdio.h>
+
+#include <iostream>
+#include <string>
+
+class InputHandler{
+    
+    public:
+        std::string getInput();
+        std::string strtobin(std::string a);
+    
+};
 
 #endif /* input_handler_hpp */
